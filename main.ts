@@ -1,6 +1,7 @@
 let Graden = 0
 basic.forever(function () {
-    if (Graden <= 45) {
+    Graden = input.compassHeading()
+    if (Graden < 45) {
         basic.showString("N")
     } else if (Graden < 90) {
         basic.showString("O")
@@ -11,5 +12,4 @@ basic.forever(function () {
     } else {
     	
     }
-    Graden = input.compassHeading()
 })
