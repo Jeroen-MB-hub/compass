@@ -9,7 +9,5 @@ basic.forever(function () {
         basic.showString("Z")
     } else if (Graden <= 270) {
         basic.showString("W")
-    } else {
-    	
     }
 })
